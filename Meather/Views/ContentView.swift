@@ -10,8 +10,8 @@ import SwiftUI
 struct ContentView: View {
     
     @StateObject var locationManager = LocationManager()
-    var weatherManager = WeatherManager()
-    @State var weather: ResponseBody?
+    var weatherManager = WeatherRemoteService()
+    @State var weather: WeatherData?
     
     var body: some View {
         VStack {

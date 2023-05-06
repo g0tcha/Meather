@@ -7,7 +7,7 @@
 
 import Foundation
 
-var previewWeather: ResponseBody = load("weather_data")
+var previewWeather: WeatherData = load("weather_data")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

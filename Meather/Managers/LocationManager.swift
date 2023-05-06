@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
+final class LocationManager: NSObject, ObservableObject {
     let manager = CLLocationManager()
     
     @Published var location: CLLocationCoordinate2D?
@@ -23,6 +23,11 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         isLoading = true
         manager.requestLocation()
     }
+}
+
+// MARK: - CLLocationManagerDelegate
+
+extension LocationManager: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         location = locations.first?.coordinate
