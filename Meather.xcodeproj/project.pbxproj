@@ -14,6 +14,9 @@
 		D21458AD2A066808000E6CA7 /* MeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21458AC2A066808000E6CA7 /* MeatherTests.swift */; };
 		D21458B72A066808000E6CA7 /* MeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21458B62A066808000E6CA7 /* MeatherUITests.swift */; };
 		D21458B92A066808000E6CA7 /* MeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21458B82A066808000E6CA7 /* MeatherUITestsLaunchTests.swift */; };
+		D21458C72A066B7F000E6CA7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21458C62A066B7F000E6CA7 /* LocationManager.swift */; };
+		D21458CA2A066C92000E6CA7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21458C92A066C92000E6CA7 /* WelcomeView.swift */; };
+		D21458CC2A066E13000E6CA7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21458CB2A066E13000E6CA7 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D21458B22A066808000E6CA7 /* MeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21458B62A066808000E6CA7 /* MeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatherUITests.swift; sourceTree = "<group>"; };
 		D21458B82A066808000E6CA7 /* MeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D21458C62A066B7F000E6CA7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D21458C92A066C92000E6CA7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		D21458CB2A066E13000E6CA7 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,9 @@
 		D214589A2A066807000E6CA7 /* Meather */ = {
 			isa = PBXGroup;
 			children = (
+				D21458C82A066C53000E6CA7 /* Views */,
+				D21458C52A066B76000E6CA7 /* Managers */,
 				D214589B2A066807000E6CA7 /* MeatherApp.swift */,
-				D214589D2A066807000E6CA7 /* ContentView.swift */,
 				D214589F2A066808000E6CA7 /* Assets.xcassets */,
 				D21458A12A066808000E6CA7 /* Preview Content */,
 			);
@@ -125,6 +132,24 @@
 				D21458B82A066808000E6CA7 /* MeatherUITestsLaunchTests.swift */,
 			);
 			path = MeatherUITests;
+			sourceTree = "<group>";
+		};
+		D21458C52A066B76000E6CA7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D21458C62A066B7F000E6CA7 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D21458C82A066C53000E6CA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D214589D2A066807000E6CA7 /* ContentView.swift */,
+				D21458C92A066C92000E6CA7 /* WelcomeView.swift */,
+				D21458CB2A066E13000E6CA7 /* LoadingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +284,9 @@
 			files = (
 				D214589E2A066807000E6CA7 /* ContentView.swift in Sources */,
 				D214589C2A066807000E6CA7 /* MeatherApp.swift in Sources */,
+				D21458C72A066B7F000E6CA7 /* LocationManager.swift in Sources */,
+				D21458CC2A066E13000E6CA7 /* LoadingView.swift in Sources */,
+				D21458CA2A066C92000E6CA7 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +453,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +483,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
