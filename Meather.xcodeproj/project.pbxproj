@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D214589C2A066807000E6CA7 /* MeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D214589B2A066807000E6CA7 /* MeatherApp.swift */; };
+		D214589E2A066807000E6CA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D214589D2A066807000E6CA7 /* ContentView.swift */; };
+		D21458A02A066808000E6CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D214589F2A066808000E6CA7 /* Assets.xcassets */; };
+		D21458A32A066808000E6CA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21458A22A066808000E6CA7 /* Preview Assets.xcassets */; };
+		D21458AD2A066808000E6CA7 /* MeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21458AC2A066808000E6CA7 /* MeatherTests.swift */; };
+		D21458B72A066808000E6CA7 /* MeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21458B62A066808000E6CA7 /* MeatherUITests.swift */; };
+		D21458B92A066808000E6CA7 /* MeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21458B82A066808000E6CA7 /* MeatherUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D21458A92A066808000E6CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D21458902A066807000E6CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21458972A066807000E6CA7;
+			remoteInfo = Meather;
+		};
+		D21458B32A066808000E6CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D21458902A066807000E6CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21458972A066807000E6CA7;
+			remoteInfo = Meather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D21458982A066807000E6CA7 /* Meather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D214589B2A066807000E6CA7 /* MeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatherApp.swift; sourceTree = "<group>"; };
+		D214589D2A066807000E6CA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D214589F2A066808000E6CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D21458A22A066808000E6CA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D21458A82A066808000E6CA7 /* MeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21458AC2A066808000E6CA7 /* MeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatherTests.swift; sourceTree = "<group>"; };
+		D21458B22A066808000E6CA7 /* MeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21458B62A066808000E6CA7 /* MeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatherUITests.swift; sourceTree = "<group>"; };
+		D21458B82A066808000E6CA7 /* MeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D21458952A066807000E6CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21458A52A066808000E6CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21458AF2A066808000E6CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D214588F2A066807000E6CA7 = {
+			isa = PBXGroup;
+			children = (
+				D214589A2A066807000E6CA7 /* Meather */,
+				D21458AB2A066808000E6CA7 /* MeatherTests */,
+				D21458B52A066808000E6CA7 /* MeatherUITests */,
+				D21458992A066807000E6CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D21458992A066807000E6CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D21458982A066807000E6CA7 /* Meather.app */,
+				D21458A82A066808000E6CA7 /* MeatherTests.xctest */,
+				D21458B22A066808000E6CA7 /* MeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D214589A2A066807000E6CA7 /* Meather */ = {
+			isa = PBXGroup;
+			children = (
+				D214589B2A066807000E6CA7 /* MeatherApp.swift */,
+				D214589D2A066807000E6CA7 /* ContentView.swift */,
+				D214589F2A066808000E6CA7 /* Assets.xcassets */,
+				D21458A12A066808000E6CA7 /* Preview Content */,
+			);
+			path = Meather;
+			sourceTree = "<group>";
+		};
+		D21458A12A066808000E6CA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D21458A22A066808000E6CA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D21458AB2A066808000E6CA7 /* MeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				D21458AC2A066808000E6CA7 /* MeatherTests.swift */,
+			);
+			path = MeatherTests;
+			sourceTree = "<group>";
+		};
+		D21458B52A066808000E6CA7 /* MeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D21458B62A066808000E6CA7 /* MeatherUITests.swift */,
+				D21458B82A066808000E6CA7 /* MeatherUITestsLaunchTests.swift */,
+			);
+			path = MeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D21458972A066807000E6CA7 /* Meather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21458BC2A066808000E6CA7 /* Build configuration list for PBXNativeTarget "Meather" */;
+			buildPhases = (
+				D21458942A066807000E6CA7 /* Sources */,
+				D21458952A066807000E6CA7 /* Frameworks */,
+				D21458962A066807000E6CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meather;
+			productName = Meather;
+			productReference = D21458982A066807000E6CA7 /* Meather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D21458A72A066808000E6CA7 /* MeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21458BF2A066808000E6CA7 /* Build configuration list for PBXNativeTarget "MeatherTests" */;
+			buildPhases = (
+				D21458A42A066808000E6CA7 /* Sources */,
+				D21458A52A066808000E6CA7 /* Frameworks */,
+				D21458A62A066808000E6CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21458AA2A066808000E6CA7 /* PBXTargetDependency */,
+			);
+			name = MeatherTests;
+			productName = MeatherTests;
+			productReference = D21458A82A066808000E6CA7 /* MeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D21458B12A066808000E6CA7 /* MeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21458C22A066808000E6CA7 /* Build configuration list for PBXNativeTarget "MeatherUITests" */;
+			buildPhases = (
+				D21458AE2A066808000E6CA7 /* Sources */,
+				D21458AF2A066808000E6CA7 /* Frameworks */,
+				D21458B02A066808000E6CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21458B42A066808000E6CA7 /* PBXTargetDependency */,
+			);
+			name = MeatherUITests;
+			productName = MeatherUITests;
+			productReference = D21458B22A066808000E6CA7 /* MeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D21458902A066807000E6CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D21458972A066807000E6CA7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D21458A72A066808000E6CA7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D21458972A066807000E6CA7;
+					};
+					D21458B12A066808000E6CA7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D21458972A066807000E6CA7;
+					};
+				};
+			};
+			buildConfigurationList = D21458932A066807000E6CA7 /* Build configuration list for PBXProject "Meather" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D214588F2A066807000E6CA7;
+			productRefGroup = D21458992A066807000E6CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D21458972A066807000E6CA7 /* Meather */,
+				D21458A72A066808000E6CA7 /* MeatherTests */,
+				D21458B12A066808000E6CA7 /* MeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D21458962A066807000E6CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21458A32A066808000E6CA7 /* Preview Assets.xcassets in Resources */,
+				D21458A02A066808000E6CA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21458A62A066808000E6CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21458B02A066808000E6CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D21458942A066807000E6CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D214589E2A066807000E6CA7 /* ContentView.swift in Sources */,
+				D214589C2A066807000E6CA7 /* MeatherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21458A42A066808000E6CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21458AD2A066808000E6CA7 /* MeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21458AE2A066808000E6CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21458B72A066808000E6CA7 /* MeatherUITests.swift in Sources */,
+				D21458B92A066808000E6CA7 /* MeatherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D21458AA2A066808000E6CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D21458972A066807000E6CA7 /* Meather */;
+			targetProxy = D21458A92A066808000E6CA7 /* PBXContainerItemProxy */;
+		};
+		D21458B42A066808000E6CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D21458972A066807000E6CA7 /* Meather */;
+			targetProxy = D21458B32A066808000E6CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D21458BA2A066808000E6CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D21458BB2A066808000E6CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D21458BD2A066808000E6CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meather/Preview Content\"";
+				DEVELOPMENT_TEAM = 6G68R287BD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.vincentgrossier.Meather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D21458BE2A066808000E6CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meather/Preview Content\"";
+				DEVELOPMENT_TEAM = 6G68R287BD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.vincentgrossier.Meather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D21458C02A066808000E6CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G68R287BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.vincentgrossier.MeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meather";
+			};
+			name = Debug;
+		};
+		D21458C12A066808000E6CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G68R287BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.vincentgrossier.MeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meather";
+			};
+			name = Release;
+		};
+		D21458C32A066808000E6CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G68R287BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.vincentgrossier.MeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meather;
+			};
+			name = Debug;
+		};
+		D21458C42A066808000E6CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G68R287BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.vincentgrossier.MeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D21458932A066807000E6CA7 /* Build configuration list for PBXProject "Meather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21458BA2A066808000E6CA7 /* Debug */,
+				D21458BB2A066808000E6CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21458BC2A066808000E6CA7 /* Build configuration list for PBXNativeTarget "Meather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21458BD2A066808000E6CA7 /* Debug */,
+				D21458BE2A066808000E6CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21458BF2A066808000E6CA7 /* Build configuration list for PBXNativeTarget "MeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21458C02A066808000E6CA7 /* Debug */,
+				D21458C12A066808000E6CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21458C22A066808000E6CA7 /* Build configuration list for PBXNativeTarget "MeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21458C32A066808000E6CA7 /* Debug */,
+				D21458C42A066808000E6CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D21458902A066807000E6CA7 /* Project object */;
+}
